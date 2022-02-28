@@ -1,15 +1,53 @@
 // import logo from './logo.svg';
 import './App.css';
-import { Article } from './components/Index';
+import { Card } from './components/Index';
 
 function App() {
   return (
-    <div>
-      <Article
-        title={'猛烈にReactの勉強'}
-        content={'今後の勉強が不安です。。。'}
-      />
-    </div>
+    <>
+      <tr className="grid">
+        <td>
+          <Card />
+        </td>
+        <td>
+          <Card />
+        </td>
+        <td>
+          <Card />
+        </td>
+        <td>
+          <Card />
+        </td>
+      </tr>
+      <tr className="grid">
+        <td>
+          <Card />
+        </td>
+        <td>
+          <Card />
+        </td>
+        <td>
+          <Card />
+        </td>
+        <td>
+          <Card />
+        </td>
+      </tr>
+      <tr className="grid">
+        <td>
+          <Card />
+        </td>
+        <td>
+          <Card />
+        </td>
+        <td>
+          <Card />
+        </td>
+        <td>
+          <Card />
+        </td>
+      </tr>
+    </>
   );
 }
 

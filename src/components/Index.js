@@ -1,3 +1,3 @@
-export { default as Article } from './Article';
-export { default as Content } from './Content';
-export { default as Title } from './Title';
+export { default as Contents } from './Contents';
+export { default as Card } from './Card';
+export { default as Image } from './Image';
